@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultraceuticals</title>
+    <style>
+        * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                }
+
+                body {
+                margin: 0;
+                font-family: sans-serif;
+                font-size: 100%; 
+                width: 100%;
+                margin: 0 auto;
+                }
+
+                @media (max-width: 600px) {
+                body {
+                font-size: 80%;
+                }
+                }
+
+                .navbar {
+                background-color: #001F3F;
+                padding: 1rem 4rem; 
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                }
+
+                .logo img {
+                width: 20rem; 
+                height: auto; 
+                }
+
+                .nav-links a {
+                color: #B9B9B9;
+                text-decoration: none;
+                padding: 0 1rem; 
+                position: relative;
+                }
+
+                .nav-links a:hover {
+                color: #ECECEC;
+                }
+
+                .nav-links a:hover::after {
+                content: '';
+                display: block;
+                position: absolute;
+                bottom: -0.4rem; 
+                left: 50%; 
+                transform: translateX(-50%);
+                width: 1.5rem;
+                height: 0.1rem; 
+                background-color: #B9B9B9;
+                }
+    </style>
+</head>
+<body>
+    
+    
+
+<div class="navbar">
+    <div class="logo">
+      <img src="image/ultralogo.jpg" alt="Logo" width="240" height="46">
+    </div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Platform</a>
+    </div>
+</div>
+</body>
+</html>
+
+
+
